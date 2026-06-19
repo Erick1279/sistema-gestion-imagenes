@@ -35,7 +35,7 @@ func crearTabla() {
 		descripcion TEXT,
 		ruta TEXT NOT NULL,
 		formato TEXT,
-		tamanio INTEGER,
+		tamanio INTEGER,s
 		fecha_creacion DATETIME DEFAULT CURRENT_TIMESTAMP
 	);`
 

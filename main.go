@@ -29,10 +29,8 @@ func main() {
 	// Registrar todas las rutas
 	controlador.RegistrarRutas(router)
 
-	fmt.Println("=================================")
 	fmt.Println("  SISTEMA DE GESTIÓN DE IMÁGENES")
 	fmt.Println("  Servidor corriendo en puerto 8080")
-	fmt.Println("=================================")
 	fmt.Println("Rutas disponibles:")
 	fmt.Println("  POST   /imagenes          - Agregar imagen")
 	fmt.Println("  GET    /imagenes          - Listar imágenes")
@@ -40,7 +38,6 @@ func main() {
 	fmt.Println("  GET    /imagenes/buscar   - Buscar por nombre")
 	fmt.Println("  PUT    /imagenes/{id}     - Actualizar imagen")
 	fmt.Println("  DELETE /imagenes/{id}     - Eliminar imagen")
-	fmt.Println("=================================")
 
 	log.Fatal(http.ListenAndServe(":8080", router))
 }
