@@ -1,0 +1,5 @@
+sistema_imagenes.db
+imagenes/*.png
+imagenes/*.jpg
+imagenes/*.jpeg
+imagenes/*.gif
